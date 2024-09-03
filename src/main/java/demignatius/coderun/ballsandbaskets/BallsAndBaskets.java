@@ -17,7 +17,7 @@ public class BallsAndBaskets {
         return lastResult.toString();
     }
 
-    static void findMethodsOfSelection() throws IOException {
+    public static void findMethodsOfSelection() throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out));
 
